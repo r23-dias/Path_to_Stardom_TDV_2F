@@ -59,9 +59,6 @@ Path_to_stardom_TDV/
 └── Path_to_stardom_TDV.csproj  # Arquivo de projeto C#
 
 
-
-
-
 ### Decisões de Design
 
 1. **Sistema de Estados**: Implementação de uma máquina de estados simples para gerenciar transições entre menu, jogo e créditos.
