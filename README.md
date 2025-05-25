@@ -28,35 +28,35 @@ O projeto foi estruturado seguindo uma arquitetura modular com separação clara
 ### Organização das Pastas
 
 Path_to_stardom_TDV/
-├── Game1.cs                    # Classe principal do jogo (MonoGame)
-├── BitmapFont.cs              # Sistema de fonte bitmap personalizada
-├── StaticBackground.cs        # Sistema de background estático
-├── Fighter.cs                 # Classe dos lutadores (inferida)
-├── MainMenu.cs               # Tela do menu principal (inferida)
-├── CreditsScreen.cs          # Tela de créditos (inferida)
-├── VictoryScreen.cs          # Tela de vitória (inferida)
-├── Camera.cs                 # Sistema de câmera (inferida)
-├── Content/                  # Pasta de recursos do MonoGame
-│   ├── Sound/               # Arquivos de áudio
-│   │   ├── Musica de menu   # Música do menu principal (.xnb)
-│   │   └── Fighting song    # Música durante as lutas (.xnb)
-│   ├── Sprites/             # Texturas dos personagens (inferida)
-│   │   ├── MKing/          # Sprites do personagem MKing
-│   │   └── FWarrior/       # Sprites do personagem FWarrior
-│   ├── Backgrounds/         # Imagens de fundo (inferida)
-│   └── UI/                  # Elementos de interface (inferida)
-├── bin/                     # Arquivos compilados
-│   ├── Debug/
-│   └── Release/
-├── obj/                     # Arquivos temporários de compilação
-├── Properties/              # Propriedades do projeto
-│   └── AssemblyInfo.cs
-├── Content.mgcb             # Pipeline de conteúdo do MonoGame
-├── app.manifest             # Manifesto da aplicação
-├── Icon.ico                 # Ícone do jogo
-├── Icon.bmp                 # Ícone bitmap
-├── Program.cs               # Ponto de entrada da aplicação
-└── Path_to_stardom_TDV.csproj  # Arquivo de projeto C#
+- Game1.cs                    # Classe principal do jogo (MonoGame)
+- BitmapFont.cs              # Sistema de fonte bitmap personalizada
+- StaticBackground.cs        # Sistema de background estático
+- Fighter.cs                 # Classe dos lutadores (inferida)
+- MainMenu.cs               # Tela do menu principal (inferida)
+- CreditsScreen.cs          # Tela de créditos (inferida)
+- VictoryScreen.cs          # Tela de vitória (inferida)
+- Camera.cs                 # Sistema de câmera (inferida)
+- Content/                  # Pasta de recursos do MonoGame
+-   - Sound/               # Arquivos de áudio
+-   -   -- Musica de menu   # Música do menu principal (.xnb)
+-   -   -- Fighting song    # Música durante as lutas (.xnb)
+-   -- Sprites/             # Texturas dos personagens (inferida)
+-   -   -- MKing/          # Sprites do personagem MKing
+-   -   -- FWarrior/       # Sprites do personagem FWarrior
+-   -- Backgrounds/         # Imagens de fundo (inferida)
+-   -- UI/                  # Elementos de interface (inferida)
+--  in/                     # Arquivos compilados
+-   -- Debug/
+-   -- Release/
+-- obj/                     # Arquivos temporários de compilação
+-- Properties/              # Propriedades do projeto
+-   -- AssemblyInfo.cs
+-- Content.mgcb             # Pipeline de conteúdo do MonoGame
+-- app.manifest             # Manifesto da aplicação
+-- Icon.ico                 # Ícone do jogo
+-- Icon.bmp                 # Ícone bitmap
+-- Program.cs               # Ponto de entrada da aplicação
+-- Path_to_stardom_TDV.csproj  # Arquivo de projeto C#
 
 
 ### Decisões de Design
